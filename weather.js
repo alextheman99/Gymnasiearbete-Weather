@@ -262,6 +262,94 @@ $(document).ready(function () {
         }
     });
 
+    //NEW YORK
+    $.simpleWeather({
+        zipcode: '',
+        woeid: '',
+        location: 'New York',
+        unit: 'c',
+        success: function (weather) {
+            html = '<h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
+            html += '<ul><li>' + weather.city + '</li>';
+            html += '<li class="currently">' + weather.currently + '</li>';
+            html += '<li>' + weather.alt.temp + '&deg;F</li></ul>';
+            $("#new_york").html(html);
+
+
+
+            $("#new_york").html(html);
+        },
+        error: function (error) {
+            $("#new_york").html('<p>' + error + '</p>');
+        }
+    });
+
+    //OTTAWA
+    $.simpleWeather({
+        zipcode: '',
+        woeid: '',
+        location: 'Ottawa',
+        unit: 'c',
+        success: function (weather) {
+            html = '<h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
+            html += '<ul><li>' + weather.city + '</li>';
+            html += '<li class="currently">' + weather.currently + '</li>';
+            html += '<li>' + weather.alt.temp + '&deg;F</li></ul>';
+            $("#ottawa").html(html);
+
+
+
+            $("#ottawa").html(html);
+        },
+        error: function (error) {
+            $("#ottawa").html('<p>' + error + '</p>');
+        }
+    });
+
+    //MEXICO CITY
+    $.simpleWeather({
+        zipcode: '',
+        woeid: '',
+        location: 'Mexico City',
+        unit: 'c',
+        success: function (weather) {
+            html = '<h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
+            html += '<ul><li>' + weather.city + '</li>';
+            html += '<li class="currently">' + weather.currently + '</li>';
+            html += '<li>' + weather.alt.temp + '&deg;F</li></ul>';
+            $("#mexico_city").html(html);
+
+
+
+            $("#mexico_city").html(html);
+        },
+        error: function (error) {
+            $("#mexico_city").html('<p>' + error + '</p>');
+        }
+    });
+
+    //RIO DE JANEIRO
+    $.simpleWeather({
+        zipcode: '',
+        woeid: '',
+        location: 'Rio de Janeiro',
+        unit: 'c',
+        success: function (weather) {
+            html = '<h2>' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
+            html += '<ul><li>' + weather.city + '</li>';
+            html += '<li class="currently">' + weather.currently + '</li>';
+            html += '<li>' + weather.alt.temp + '&deg;F</li></ul>';
+            $("#rio_de_janeiro").html(html);
+
+
+
+            $("#rio_de_janeiro").html(html);
+        },
+        error: function (error) {
+            $("#rio_de_janeiro").html('<p>' + error + '</p>');
+        }
+    });
+
     //GEOLOCATION
     if ("geolocation" in navigator) {
         $('.geolocation').show();
