@@ -211,8 +211,6 @@ $(document).ready(function () {
             html += '<li>' + weather.alt.temp + '&deg;F</li></ul>';
             $("#tokyo").html(html);
 
-
-
             $("#tokyo").html(html);
         },
         error: function (error) {
