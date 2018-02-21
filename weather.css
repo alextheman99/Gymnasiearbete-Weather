@@ -30,14 +30,14 @@
  }
  #container {
      width: 100%;
-     margin: 0 auto;
+     margin: 0 0;
      display: flex;
      justify-content: center;
  }
  .weather {
      display: inline-block;
-     width: 50%;
-     margin-bottom: 50px;
+     width: 100%;
+     margin: 0px 0px 50px 0px;
      text-align: center;
      height: 350px;
  }
@@ -51,99 +51,98 @@
  }
  #stockholm {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/europa/stockholm.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     box-shadow: 5px;
  }
  #london {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/europa/london.jpg);
      background-size: 100% 100%;
  }
  #paris {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/europa/paris.jpg);
      background-size: 100% 100%;
  }
  #berlin {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/europa/berlin.jpg);
      background-size: 100% 100%;
  }
  #kapstaden {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/afrika/kapstaden.jpg);
      background-size: 100% 100%;
  }
  #nairobi {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/afrika/nairobi.jpg);
      background-size: 100% 100%;
  }
  #lagos {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/afrika/lagos.jpg);
      background-size: 100% 100%;
  }
  #kairo {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/afrika/kairo.jpg);
      background-size: 100% 100%;
  }
  #beijing {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/asien/beijing.jpg);
      background-size: 100% 100%;
  }
  #tokyo {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/asien/tokyo.jpg);
      background-size: 100% 100%;
  }
  #bangkok {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/asien/bangkok.jpg);
      background-size: 100% 100%;
  }
  #new_delhi {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/asien/new_delhi.jpg);
      background-size: 100% 100%;
  }
  #new_york {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/amerika/new_york.jpg);
      background-size: 100% 100%;
  }
  #ottawa {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/amerika/ottawa.jpg);
      background-size: 100% 100%;
  }
  #mexico_city {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/amerika/mexico_city.jpg);
      background-size: 100% 100%;
  }
  #rio_de_janeiro {
      width: 100%;
-     height: 70%;
+     height: 90%;
      background-image: url(bilder/amerika/rio_de_janeiro.jpg);
      background-size: 100% 100%;
  }
