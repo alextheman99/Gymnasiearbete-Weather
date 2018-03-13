@@ -42,7 +42,7 @@
  .weather {
      display: inline-block;
      width: 100%;
-     margin: 0px 0px 50px 0px;
+     margin: 0px 0px 5px 0px;
      text-align: center;
      width: 100%;
      height: 90%;
@@ -51,14 +51,21 @@
      background-repeat: no-repeat;
  }
 
+ html h2 {
+     font-size: 300%;
+     color: black;
+ }
+
  #geo {
-     width: 50%;
-     height: 100%;
-     background-image: url(bilder/geolocation.png);
+     background-image: url(bilder/geolocation.jpg);
+     text-align: center;
+     width: 100%;
+     height: 90%;
+
      background-size: 100% 100%;
      background-repeat: no-repeat;
-     background-position: center;
  }
+
 
  #stockholm {
      background-image: url(bilder/europa/stockholm.jpg);
@@ -82,6 +89,7 @@
 
  #nairobi {
      background-image: url(bilder/afrika/nairobi.jpg);
+
  }
 
  #lagos {
@@ -124,12 +132,6 @@
      background-image: url(bilder/amerika/rio_de_janeiro.jpg);
  }
 
- h2 {
-     text-align: center;
-     font-size: 300%;
-     font-family: 'Fugaz One', cursive;
- }
-
  ul {
      list-style-type: none;
      padding: 0;
@@ -160,6 +162,7 @@
 
  .nav {
      background-color: #333;
+     padding: 1px;
 
  }
 
@@ -183,6 +186,9 @@
  }
 
 
- @media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 800px) {
      /* styles for wide screens */
+     html h2 {
+         font-size: 500%;
+     }
  }
